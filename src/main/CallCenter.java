@@ -9,7 +9,7 @@ public class CallCenter {
 		tec.nextTechnician(tec2);
 		tec2.nextTechnician(new Technician3());
 		
-		tec.process(Problems.NETWORK);
+		tec.process(Problems.HARDWARE);
 	}
 
 }

@@ -9,11 +9,7 @@ public abstract class Technician {
 	}
 	
 	public void nextTechnician(Technician technician) {
-		if(technician != null) {
 			this.nextTechnician = technician;
-		} else {
-			this.nextTechnician( technician );
-		}
 	}
 	
 	public void process (Problems problem) {
